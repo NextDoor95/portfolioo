@@ -548,12 +548,16 @@ form textarea {
         transform: translate(-50%, -50%);
     }
 
+    .about {
+        height: 150vh;
+    }
+
     .portfolio-content {
         margin: 10px 50px;
     }
 
     .contact {
-        height: 110vh;
+        height: 130vh;
     }
 
 }
