@@ -220,22 +220,6 @@ header.sticky {
     border-radius: 10px;
 }
 
-.cripts {
-    width: 230px;
-    height: 20px;
-    margin-top: 10px;
-    display: block;
-    color: var(--text-color);
-    font-size: var(--p-font);
-    transition: all .40s ease;
-    cursor: pointer;
-}
-
-.cripts:hover {
-    transform: scale(1.01) translateY(-5px);
-    color: var(--main-color);
-}
-
 .main-text{
     text-align:center;
     justify-content: center;
@@ -551,4 +535,25 @@ form textarea {
         --h2-font: 2.5rem;
         --p-font: 1rem;
     }
+
+    .home {
+        grid-template-columns: 1fr;
+        height: 100vh;
+    }
+
+    .home-img img {
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .portfolio-content {
+        margin: 10px 50px;
+    }
+
+    .contact {
+        height: 110vh;
+    }
+
 }
